@@ -13,14 +13,12 @@ import java.awt.event.*;
             super("Word Counter");
 
             textArea = new JTextArea(20, 40);
-            textArea.setFont(new Font("Arial", Font.PLAIN, 22)); // Source: [2](https://stackoverflow.com/questions/6461506/jtextarea-default-font-very-small-in-windows)
+            textArea.setFont(new Font("Arial", Font.PLAIN, 22)); 
             countButton = new JButton("Count");
-            countButton.setFont(new Font("Arial Black", Font.PLAIN, 18)); // Source: [2](https://stackoverflow.com/questions/6461506/jtextarea-default-font-very-small-in-windows)
-
+            countButton.setFont(new Font("Arial Black", Font.PLAIN, 18)); 
 
             countLabel = new JLabel("Word count: 0");
-            countLabel.setFont(new Font("Arial Black", Font.PLAIN, 18)); // Source: [2](https://stackoverflow.com/questions/6461506/jtextarea-default-font-very-small-in-windows)
-
+            countLabel.setFont(new Font("Arial Black", Font.PLAIN, 18));
 
             JPanel panel = new JPanel();
             panel.add(new JScrollPane(textArea));
